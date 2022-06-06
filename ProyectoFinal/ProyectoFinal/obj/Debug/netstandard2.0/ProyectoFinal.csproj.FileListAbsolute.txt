@@ -1,0 +1,12 @@
+/Users/luisenrique/RiderProjects/ProyectoFinal/ProyectoFinal/ProyectoFinal/bin/Debug/netstandard2.0/ProyectoFinal.deps.json
+/Users/luisenrique/RiderProjects/ProyectoFinal/ProyectoFinal/ProyectoFinal/bin/Debug/netstandard2.0/ProyectoFinal.dll
+/Users/luisenrique/RiderProjects/ProyectoFinal/ProyectoFinal/ProyectoFinal/bin/Debug/netstandard2.0/ProyectoFinal.pdb
+/Users/luisenrique/RiderProjects/ProyectoFinal/ProyectoFinal/ProyectoFinal/obj/Debug/netstandard2.0/ProyectoFinal.csprojAssemblyReference.cache
+/Users/luisenrique/RiderProjects/ProyectoFinal/ProyectoFinal/ProyectoFinal/obj/Debug/netstandard2.0/App.xaml.g.cs
+/Users/luisenrique/RiderProjects/ProyectoFinal/ProyectoFinal/ProyectoFinal/obj/Debug/netstandard2.0/MainPage.xaml.g.cs
+/Users/luisenrique/RiderProjects/ProyectoFinal/ProyectoFinal/ProyectoFinal/obj/Debug/netstandard2.0/ProyectoFinal.AssemblyInfoInputs.cache
+/Users/luisenrique/RiderProjects/ProyectoFinal/ProyectoFinal/ProyectoFinal/obj/Debug/netstandard2.0/ProyectoFinal.AssemblyInfo.cs
+/Users/luisenrique/RiderProjects/ProyectoFinal/ProyectoFinal/ProyectoFinal/obj/Debug/netstandard2.0/ProyectoFinal.csproj.CoreCompileInputs.cache
+/Users/luisenrique/RiderProjects/ProyectoFinal/ProyectoFinal/ProyectoFinal/obj/Debug/netstandard2.0/XamlC.stamp
+/Users/luisenrique/RiderProjects/ProyectoFinal/ProyectoFinal/ProyectoFinal/obj/Debug/netstandard2.0/ProyectoFinal.dll
+/Users/luisenrique/RiderProjects/ProyectoFinal/ProyectoFinal/ProyectoFinal/obj/Debug/netstandard2.0/ProyectoFinal.pdb

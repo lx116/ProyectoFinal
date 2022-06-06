@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    ios:Page.UseSafeArea="true"
+    x:Class="ProyectoFinal.MainPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core"
+    xmlns:local="clr-namespace:ProyectoFinal"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+
+    <StackLayout>
+        <CollectionView x:Name="LVproducts">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto" />
+                            <ColumnDefinition Width="100" />
+                            <ColumnDefinition Width="Auto" />
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="200" />
+                        </Grid.RowDefinitions>
+                        <Image
+                            Grid.Column="0"
+                            Source="{Binding image}"
+                            WidthRequest="100" />
+                        <Label
+                            FontSize="24"
+                            Grid.Column="1"
+                            HorizontalTextAlignment="Center"
+                            Text="{Binding name}"
+                            VerticalTextAlignment="Center" />
+                        <Label
+                            FontSize="18"
+                            Grid.Column="2"
+                            HorizontalTextAlignment="End"
+                            Text="{Binding price}"
+                            VerticalTextAlignment="Center" />
+                    </Grid>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+    </StackLayout>
+
+</ContentPage>
