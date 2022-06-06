@@ -10,3 +10,5 @@
 /Users/luisenrique/RiderProjects/ProyectoFinal/ProyectoFinal/ProyectoFinal/obj/Debug/netstandard2.0/XamlC.stamp
 /Users/luisenrique/RiderProjects/ProyectoFinal/ProyectoFinal/ProyectoFinal/obj/Debug/netstandard2.0/ProyectoFinal.dll
 /Users/luisenrique/RiderProjects/ProyectoFinal/ProyectoFinal/ProyectoFinal/obj/Debug/netstandard2.0/ProyectoFinal.pdb
+/Users/luisenrique/RiderProjects/ProyectoFinal/ProyectoFinal/ProyectoFinal/obj/Debug/netstandard2.0/views/LoginIU.xaml.g.cs
+/Users/luisenrique/RiderProjects/ProyectoFinal/ProyectoFinal/ProyectoFinal/obj/Debug/netstandard2.0/views/RegisterIU.xaml.g.cs

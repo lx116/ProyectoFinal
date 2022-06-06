@@ -8,11 +8,12 @@ namespace ProyectoFinal
 {
     public partial class App : Application
     {
+        public static string GlobalUrl = "https://9d5b-181-78-13-143.ngrok.io/api/";
         public App()
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new NavigationPage(new LoginIU());
         }
 
         protected override void OnStart()
