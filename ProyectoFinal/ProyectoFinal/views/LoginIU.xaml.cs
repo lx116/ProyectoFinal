@@ -7,6 +7,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Newtonsoft.Json;
 using ProyectoFinal.Models;
+using ProyectoFinal.views;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -46,7 +47,7 @@ namespace ProyectoFinal
             
             if (res.result == "access")
             {
-                await Navigation.PushAsync(new MainPage());
+                await Navigation.PushAsync(new PrincipalPage());
             }
             else
             {

@@ -30,6 +30,7 @@ namespace ProyectoFinal
             string categoryContent = await Client.GetStringAsync(App.GlobalUrl+"/categories/");
 
             IEnumerable<Category> categories = JsonConvert.DeserializeObject<IEnumerable<Category>>(categoryContent);
+            CollectionViewCategory.ItemsSource = new ObservableCollection<Category>(categories);
             
             IEnumerable<Product> productList = JsonConvert.DeserializeObject<IEnumerable<Product>>(content);
             LVproducts.ItemsSource = new ObservableCollection<Product>(productList);

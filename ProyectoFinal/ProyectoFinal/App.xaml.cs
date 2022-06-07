@@ -8,8 +8,9 @@ namespace ProyectoFinal
 {
     public partial class App : Application
     {
-        public static string GlobalUrl = "https://5ccf-181-78-13-143.ngrok.io/api";
-        public static string GlobalMedialUrl = "https://5ccf-181-78-13-143.ngrok.io";
+        public static FlyoutPage FlyoutP { get; set; }
+        public static string GlobalUrl = "https://79ed-181-78-13-143.ngrok.io/api";
+        public static string GlobalMedialUrl = "https://79ed-181-78-13-143.ngrok.io";
         public App()
         {
             InitializeComponent();

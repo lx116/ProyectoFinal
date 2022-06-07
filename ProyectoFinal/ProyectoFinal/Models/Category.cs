@@ -30,6 +30,18 @@ namespace ProyectoFinal.Models
 
             }
         }
+
+        private string imageCategory;
+        
+        public string image
+        {
+            get { return imageCategory; }
+            set
+            {
+                imageCategory = App.GlobalMedialUrl+value;
+                OnPropertyChanged();
+            }
+        }
         
         public event PropertyChangedEventHandler PropertyChanged;
 

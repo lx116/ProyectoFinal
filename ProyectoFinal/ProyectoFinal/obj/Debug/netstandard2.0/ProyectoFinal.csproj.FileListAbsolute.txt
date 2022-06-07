@@ -12,3 +12,8 @@
 /Users/luisenrique/RiderProjects/ProyectoFinal/ProyectoFinal/ProyectoFinal/obj/Debug/netstandard2.0/ProyectoFinal.pdb
 /Users/luisenrique/RiderProjects/ProyectoFinal/ProyectoFinal/ProyectoFinal/obj/Debug/netstandard2.0/views/LoginIU.xaml.g.cs
 /Users/luisenrique/RiderProjects/ProyectoFinal/ProyectoFinal/ProyectoFinal/obj/Debug/netstandard2.0/views/RegisterIU.xaml.g.cs
+/Users/luisenrique/RiderProjects/ProyectoFinal/ProyectoFinal/ProyectoFinal/obj/Debug/netstandard2.0/views/DetailPage.xaml.g.cs
+/Users/luisenrique/RiderProjects/ProyectoFinal/ProyectoFinal/ProyectoFinal/obj/Debug/netstandard2.0/views/PrincipalPage.xaml.g.cs
+/Users/luisenrique/RiderProjects/ProyectoFinal/ProyectoFinal/ProyectoFinal/obj/Debug/netstandard2.0/views/LateralMenu.xaml.g.cs
+/Users/luisenrique/RiderProjects/ProyectoFinal/ProyectoFinal/ProyectoFinal/obj/Debug/netstandard2.0/views/TabbedPageControl.xaml.g.cs
+/Users/luisenrique/RiderProjects/ProyectoFinal/ProyectoFinal/ProyectoFinal/obj/Debug/netstandard2.0/views/SearchPage.xaml.g.cs

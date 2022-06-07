@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<TabbedPage
+    Title="Detail"
+    android:TabbedPage.ToolbarPlacement="Bottom"
+    x:Class="ProyectoFinal.views.DetailPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:android="clr-namespace:Xamarin.Forms.PlatformConfiguration.AndroidSpecific;assembly=Xamarin.Forms.Core"
+    xmlns:local="clr-namespace:ProyectoFinal;assembly=ProyectoFinal"
+    xmlns:views="clr-namespace:ProyectoFinal.views;assembly=ProyectoFinal"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+    <NavigationPage.TitleView>
+        <Grid BackgroundColor="Blue" />
+    </NavigationPage.TitleView>
+    <local:MainPage Title="Products" />
+    <views:SearchPage Title="Search" />
+</TabbedPage>
