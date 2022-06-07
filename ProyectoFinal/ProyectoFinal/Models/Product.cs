@@ -51,7 +51,7 @@ namespace ProyectoFinal.Models
             get { return productImage; }
             set
             {
-                productImage = "https://9d5b-181-78-13-143.ngrok.io" + value; 
+                productImage = App.GlobalMedialUrl + value; 
                 OnPropertyChanged();
 
             }

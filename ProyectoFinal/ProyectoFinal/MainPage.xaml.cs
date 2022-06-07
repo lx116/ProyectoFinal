@@ -15,7 +15,7 @@ namespace ProyectoFinal
 {
     public partial class MainPage : ContentPage
     {
-        private string url = "https://9d5b-181-78-13-143.ngrok.io/api/products-list/";
+        private string url = App.GlobalUrl+"/products-list/";
         
         private HttpClient Client = new HttpClient();
         public MainPage()
@@ -27,7 +27,7 @@ namespace ProyectoFinal
         protected override async void OnAppearing()
         {
             string content = await Client.GetStringAsync(url);
-            string categoryContent = await Client.GetStringAsync("https://9d5b-181-78-13-143.ngrok.io/api/categories/");
+            string categoryContent = await Client.GetStringAsync(App.GlobalUrl+"/categories/");
 
             IEnumerable<Category> categories = JsonConvert.DeserializeObject<IEnumerable<Category>>(categoryContent);
             

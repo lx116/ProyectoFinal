@@ -28,17 +28,29 @@ namespace ProyectoFinal
                 username = txt_user.Text,
                 password = txt_pass.Text
             };
-            Uri RequestUri = new Uri(App.GlobalUrl + "login/");
+            Uri requestUri = new Uri(App.GlobalUrl+"/login/");
 
-            string JsonSerilizer = JsonConvert.SerializeObject(login);
-            var contentJson = new StringContent(JsonSerilizer, Encoding.UTF8, "application/json");
-
-            var response = await Client.PostAsync(RequestUri, contentJson);
-
+            string jsonSerilizer = JsonConvert.SerializeObject(login);
             
-            if (response.StatusCode == HttpStatusCode.OK)
+            var contentJson = new StringContent(jsonSerilizer, Encoding.UTF8, "application/json");
+
+            var response = await Client.PostAsync(requestUri, contentJson);
+
+            var result = await response.Content.ReadAsStringAsync();
+
+            IndivResult res = new IndivResult();
+
+            res = JsonConvert.DeserializeObject<IndivResult>(result);
+
+            await DisplayAlert("h", res.result, "ok");
+            
+            if (res.result == "access")
             {
                 await Navigation.PushAsync(new MainPage());
+            }
+            else
+            {
+                
             }
             
         }
